@@ -90,7 +90,7 @@ std_result.addEventListener('submit', function(e){
         data_send('student', local_data);
         all_results();
     }else{
-        alert_noti.innerHTML= `<p class="alert alert-danger text-center">Please, Input valide data</p>`
+        alert_noti.innerHTML= `<p class="alert alert-danger text-center">Please, Input valid data</p>`
     }
 
     std_name.value = '';
