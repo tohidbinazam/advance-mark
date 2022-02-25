@@ -89,21 +89,21 @@ std_result.addEventListener('submit', function(e){
         alert_noti.innerHTML= `<p class="alert alert-success text-center">Done, Successfully add new student result</p>`
         data_send('student', local_data);
         all_results();
+
+        std_name.value = '';
+        std_class.value = '';
+        std_roll.value = '';
+        std_photo.value = '';
+        std_college.value = '';
+        std_bn.value = '';
+        std_en.value = '';
+        std_math.value = '';
+        std_s.value = '';
+        std_ss.value = '';
+        std_rel.value = '';
     }else{
         alert_noti.innerHTML= `<p class="alert alert-danger text-center">Please, Input valid data</p>`
     }
-
-    std_name.value = '';
-    std_class.value = '';
-    std_roll.value = '';
-    std_photo.value = '';
-    std_college.value = '';
-    std_bn.value = '';
-    std_en.value = '';
-    std_math.value = '';
-    std_s.value = '';
-    std_ss.value = '';
-    std_rel.value = '';
 
 })
 
